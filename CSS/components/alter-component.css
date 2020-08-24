@@ -1,0 +1,36 @@
+.alter-header {
+  margin-top: 20px;
+  padding: var(--horizontal-space);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#chat-screen .alter-header__column {
+  width: 33%;
+}
+
+.alter-header__column__title {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.alter-header__column:first-child {
+  margin-right: auto;
+}
+
+#chat-screen .alter-header__column:nth-child(2) {
+  text-align: center;
+}
+
+.alter-header__column:last-child {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#chat-screen .alter-header__column span:last-child {
+  margin-left: 10px;
+}
